@@ -7,7 +7,7 @@ This project uses MIT-LICENSE so mess around and use it if you want and credit w
 Use it in the gem file:
 
 ```ruby
-gem 'twig_layout'
+gem 'twig_layout', git: "https://github.com/chriswnl/twig-layout.git"
 ```
 
 Then run the install command. This will copy twig.html.erb to your layouts folder and application.scss, 
