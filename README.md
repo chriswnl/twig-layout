@@ -1,8 +1,8 @@
-= Twig Basic Layout
+# Twig Basic Layout
 
 This project uses MIT-LICENSE so mess around and use it if you want and credit where it's due.
 
-= Install
+## Install
 
 Use it in the gem file:
 
