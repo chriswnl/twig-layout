@@ -12,10 +12,14 @@ module TwigLayout
         copy_file "views/layouts/twig2.html.erb", "app/views/layouts/twig.html.erb"
       end
 
-      def create_asset_files
+      def create_stylesheet_files
         copy_file "assets/stylesheets/twig.scss", "app/assets/stylesheets/application.scss"
         copy_file "assets/stylesheets/variables.scss.example", "app/assets/stylesheets/variables.scss"
         copy_file "assets/stylesheets/mixins.scss.example", "app/assets/stylesheets/mixins.scss"
+      end
+      
+      def create_js_files
+        copy_file "assets/javascripts/twig.js.example", "app/assets/javascripts/application.js"
       end
     end
   end
