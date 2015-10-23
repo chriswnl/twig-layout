@@ -1,0 +1,25 @@
+$body-bg:               #eee;
+$orange: #f7941e;
+$red: #ed1c24;
+$yellow: #ffc20e;
+$grey: #818285;
+$gray: $grey;
+$gray-light: lighten($grey, 30%);
+$orange-light: lighten($orange, 30%);
+$red-light: lighten($red, 30%);
+$yellow-light: lighten($yellow, 30%);
+$brand-primary: $orange;
+$brand-danger: $red;
+$brand-warning: $yellow;
+$brand-info: #6661e4;
+$navbar-default-link-hover-bg: $orange-light;
+$navbar-default-bg: $orange;
+$navbar-default-color: #ffffff;
+$navbar-default-link-color: #ffffff;
+$navbar-border-radius: 0px;
+$well-bg: lighten($grey, 30%);
+$well-bg-orange: lighten($orange,30%);
+$well-bg-red: lighten($red,30%);
+$well-bg-yellow: lighten($yellow,30%);
+$well-bg-grey: lighten($grey,30%);
+
