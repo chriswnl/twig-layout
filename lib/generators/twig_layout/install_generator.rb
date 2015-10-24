@@ -21,6 +21,10 @@ module TwigLayout
       def create_js_files
         copy_file "assets/javascripts/twig.js.example", "app/assets/javascripts/application.js"
       end
+      
+      def copy_image_files
+        copy_file "assets/images/twiglogo.png", "app/assets/images/twiglogo.png"
+      end
     end
   end
 end

@@ -58,6 +58,10 @@
           <ul class="nav navbar-nav">
             <li><%= link_to "About", "#"  %></li>
             <li><%= link_to "Contact", "#"  %></li>
+            <li><%= link_to "#" do %>
+                  Messages <%= badge("5",:danger) %>
+                <% end %>            
+            </li>
             
             
           </ul>
@@ -76,6 +80,7 @@
     </div>
     
     <div class="container">
+      <%= bootstrap_flash %>
       <%= yield %>    
     </div>
     
