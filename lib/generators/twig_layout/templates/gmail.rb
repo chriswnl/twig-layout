@@ -2,9 +2,9 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    address:              'smtp.gmail.com',
-    port:                 587,
-    domain:               'twigtelecom.nl',
+    address:              ENV['SMTP_SERVER'],
+    port:                 ENV['SMTP_PORT'],
+    domain:               ENV['GMAIL_DOMAIN'],
     user_name:            ENV['GMAIL_USERNAME'],
     password:             ENV['GMAIL_PASSWORD'],
     authentication:       'plain',
