@@ -6,7 +6,7 @@ module GlyphHelper
   private
   def glyph_label(what, value, type = nil)
     klass = [what]
-    klass << "#{what} #{what}-#{type}" if type.present?
+    klass << "#{what}-#{type}" #if type.present?
     content_tag :span, value, :class => "#{klass.join(' ')}"
   end
 end
