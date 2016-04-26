@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = TwigLayout::VERSION
   s.authors     = [""]
   s.email       = [""]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of twig_layout."
-  s.description = "TODO: Description of twig_layout."
+  s.homepage    = ""
+  s.summary     = "A layout."
+  s.description = "A layout thing."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
